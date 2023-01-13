@@ -16,7 +16,7 @@ namespace TpLivre
         #endregion
         #region Constructor
         /// <summary>
-        /// Constructor 
+        /// Full Constructor 
         /// </summary>
         /// <param name="title">Titre</param>
         /// <param name="autor">Auteur</param>
@@ -29,12 +29,21 @@ namespace TpLivre
         }
         #endregion
         #region Get & Set Title
+        /// <summary>
+        /// Title
+        /// </summary>
         public string Title { get => _title; set => _title = value; }
         #endregion
         #region Get & Set Autor
+        /// <summary>
+        /// Autor
+        /// </summary>
         public string Autor { get => _autor; set => _autor = value; }
         #endregion
         #region Get & Set Price
+        /// <summary>
+        /// Price
+        /// </summary>
         public double Price { get => _price; set => _price = value; }
         #endregion
         #region Method
